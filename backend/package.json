@@ -1,0 +1,26 @@
+{
+  "name": "flightassistentbackend",
+  "version": "1.0.0",
+  "description": "Basically he provide a cheap price of a flight ticket",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aditya Shivam Tushar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "cluster": "^0.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.3.3",
+    "node-fetch": "^3.3.2"
+  }
+}
